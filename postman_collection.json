@@ -1,0 +1,109 @@
+{
+	"info": {
+		"_postman_id": "9512adee-41a5-4674-b577-c5bb5ee0d816",
+		"name": "datapath_api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "12520084"
+	},
+	"item": [
+		{
+			"name": "analytics",
+			"item": [
+				{
+					"name": "income_by_department",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/analytics/income_by_department",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"analytics",
+								"income_by_department"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "top_categories",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/analytics/top_categories",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"analytics",
+								"top_categories"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "top_clients",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/analytics/top_clients",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"analytics",
+								"top_clients"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "top_products",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/analytics/top_clients",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"analytics",
+								"top_clients"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "top_fraud",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/analytics/top_clients",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"analytics",
+								"top_clients"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "crud",
+			"item": []
+		}
+	]
+}
