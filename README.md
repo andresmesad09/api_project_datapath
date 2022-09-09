@@ -5,6 +5,8 @@ Income by department
 top products
 top categories
 
+![API Flow](datapath_api_flow.png)
+
 # How to replicate this project?
 
 1. Clone this repo with `git clone`.
@@ -54,6 +56,20 @@ The following is the structure of my folder, in case you wonder how I structured
 ├── consume_api.ipynb
 ├── postman_collection.json
 └── requirements.txt
+```
+
+And the following is the result of executing `\d+` in the database once is populated.
+
+```
+                                        List of relations
+ Schema |    Name     | Type  |  Owner   | Persistence | Access method |    Size    | Description
+--------+-------------+-------+----------+-------------+---------------+------------+-------------
+ public | categories  | table | postgres | permanent   | heap          | 8192 bytes |
+ public | customers   | table | postgres | permanent   | heap          | 1344 kB    |
+ public | departments | table | postgres | permanent   | heap          | 8192 bytes |
+ public | order_items | table | postgres | permanent   | heap          | 10176 kB   |
+ public | orders      | table | postgres | permanent   | heap          | 4232 kB    |
+ public | products    | table | postgres | permanent   | heap          | 256 kB     |
 ```
 
 Please, feel free to do a PR if you find something to improve (I'm sure there is a lot).
